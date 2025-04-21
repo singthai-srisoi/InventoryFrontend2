@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+color plalette
+
+<color>
+    <color-name />
+    <color-code v="bright" />
+    <color-code v="normal" />
+    <color-code v="dark" />
+</color>
+
+
+red
+FFB9B2
+FFA69E
+E26960
+
+yellow
+FDF6E1
+FAF3DD
+DCCB92
+
+green
+C4FAEE
+B8F2E6
+7CD2C1
+
+blue
+B5E9F!
+AED9E0
+7BB3BB
+
+purple
+5072C0
+5E6472
+4C5057
+*/
+
+:root {
+    /* 🔴 Red */
+    --red-bright: #FFB9B2;
+    --red-normal: #FFA69E;
+    --red-dark: #E26960;
+
+    /* 🟡 Yellow */
+    --yellow-bright: #FDF6E1;
+    --yellow-normal: #FAF3DD;
+    --yellow-dark: #DCCB92;
+
+    /* 🟢 Green */
+    --green-bright: #C4FAEE;
+    --green-normal: #B8F2E6;
+    --green-dark: #7CD2C1;
+
+    /* 🔵 Blue (fixed typo in bright code) */
+    --blue-bright: #B5E9F1;
+    --blue-normal: #AED9E0;
+    --blue-dark: #7BB3BB;
+
+    /* 🟣 Purple */
+    --purple-bright: #5072C0;
+    --purple-normal: #5E6472;
+    --purple-dark: #4C5057;
+}
