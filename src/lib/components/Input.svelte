@@ -81,7 +81,7 @@
         color: var(--red-dark);
         border: var(--red-dark) 1px solid;
         padding: 0.2rem 0.5rem;
-        border-radius: 0.2rem;
+        border-radius: 0.3rem;
         cursor: pointer;
         font-size: 16px;
         outline: none;
